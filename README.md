@@ -12,6 +12,11 @@ Now, I'm going to explain how to use this software to create fonts that are suit
 - [ILI9341 - STM32F1 8-Bit Parallel Display Driver](https://github.com/abhra0897/stm32f1_ili9341_parallel.git)
 - [ST7789 - STM32F1 SPI Display Driver](https://github.com/abhra0897/stm32f1_st7789_spi.git)
 
+## How to Clone?
+This repository contains the **lcd-image-converter** as asubmodule. So,
+- To only clone the font files (and templates):  ` git clone https://github.com/abhra0897/FontsEmbedded.git`
+- To clone everything (including the software):  ` git clone --recurse-submodules https://github.com/abhra0897/FontsEmbedded.git`
+
 ## Instructions (Create Fonts):
 
 ### 1. Download or Compile the Software
