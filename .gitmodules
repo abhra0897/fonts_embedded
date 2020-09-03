@@ -1,0 +1,3 @@
+[submodule "lcd-image-converter"]
+	path = lcd-image-converter
+	url = https://github.com/riuson/lcd-image-converter.git/
