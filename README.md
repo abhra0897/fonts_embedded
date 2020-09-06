@@ -13,7 +13,7 @@ Now, I'm going to explain how to use this software to create fonts that are suit
 - [ST7789 - STM32F1 SPI Display Driver](https://github.com/abhra0897/stm32f1_st7789_spi.git)
 
 ## How to Clone?
-This repository contains the **lcd-image-converter** as asubmodule. So,
+This repository contains the **lcd-image-converter** as a submodule. So,
 - To only clone the font files (and templates):  ` git clone https://github.com/abhra0897/FontsEmbedded.git`
 - To clone everything (including the software):  ` git clone --recurse-submodules https://github.com/abhra0897/FontsEmbedded.git`
 
@@ -24,16 +24,21 @@ Go to Riuson's [website](https://lcd-image-converter.riuson.com/en/about/) or [G
 
 ### 2. Select Type
 After you run the application, it'll ask you to select either "**New Image**" or "**New Font**". Select "**New Font**".
-![Image 1](steps_images/image_1.png). Give the font a name. I highly recommend giving a meaningful name like "*font_ubunu_mono_bold_16*".
+
+![Image 1](steps_images/image_1.png). 
+
+Give the font a name. I highly recommend giving a meaningful name like "*font_ubunu_mono_bold_16*".
 
 ### 3. Select Font
 Select which font you want to use in your embedded application. Then select its style and size. Then click "**Ok**".
+
 ![Image 2](steps_images/image_2.png)
 
 If you're using a monospace font, I'd recommend you to go to the "**Parameters**" option and check the "Monospace" radio-button. It's not mandatory though. 
 
 ### 4. Click "Options"
 In this window, you can see each character. If you want, you can modify the glyphs by drawing over them. Click on the "**Options**" tab.
+
 ![Image 3](steps_images/image_3.png)
 
 ### 5. Click "Conversion"
@@ -41,10 +46,12 @@ After selecting option, select "**Conversion**"
 
 ### 6. Prepare
 In "**Prepare**" tab, configure the settings as per the given image:
+
 ![Image 4](steps_images/image_4.png)
 
 ### 7. Image
 Go to the "**Image**" tab and configure the output settings as per the image below:
+
 ![Image 5](steps_images/image_5.png)
 
 ### 8. Template
@@ -68,7 +75,7 @@ Now you've successfully created a font, include the generated header file in you
 
 ### [To learn how to use the fonts, check the example codes given in my display driver repos.]
 
-### License
+## License
 **lcd-image-converter** has its own licensing information.
 
 All other source codes and files of the root directory are licensed under MIT License, unless the source file has no other license asigned for it. See [MIT License](LICENSE).
